@@ -6,7 +6,7 @@ project = AIProjectClient(
     credential=DefaultAzureCredential(),
     endpoint="https://aiappsroger.services.ai.azure.com/api/projects/default")
 
-agent = project.agents.get_agent("asst_JBUuzpt7nlWfeRoUuiCj8B0l")
+agent = project.agents.get_agent("asst_Dh5fKyCpjf2sCQzZUdoHnzPy")
 
 thread = project.agents.threads.create()
 print(f"Created thread, ID: {thread.id}")
@@ -14,7 +14,7 @@ print(f"Created thread, ID: {thread.id}")
 message = project.agents.messages.create(
     thread_id=thread.id,
     role="user",
-    content="Hi Agent993"
+    content="Hi Agent887"
 )
 
 run = project.agents.runs.create_and_process(
