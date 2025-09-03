@@ -103,7 +103,7 @@ echo "/subscriptions/c310bc6f-4771-4684-8c18-9f6188293c62/resourceGroups/poc_asi
 #!/bin/bash
 
 export AZURE_CLIENT_ID="9cba7d58-03f7-4d4b-be36-d6913947fbd3"
-export AZURE_CLIENT_SECRET="YXV8Q~13c0T2hn0S_wJBxVNwHljwTE5ow49SKbBJ"  
+export AZURE_CLIENT_SECRET="Y1287361289736198236719286312J"  
 export AZURE_TENANT_ID="a08665d0-8775-4712-be9f-4e23bf1f6e93"
 
 echo "🧪 Testing Service Principal authentication..."
